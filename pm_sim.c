@@ -5,7 +5,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 
-#define MAX_PROCESSES 100
+#define MAX_PROCESSES 64
 #define MAX_LINE_LEN 256
 
 typedef enum {
