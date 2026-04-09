@@ -86,7 +86,7 @@ void pm_fork(int parent_pid, int thread_id) {
 
     int slot = -1;
     for (int i = 0; i < MAX_PROCESSES; i++) {
-        if (process_table[i].state == EMPTY || process_table[i].state == TERMINATED) {
+        if (process_table[i].state == EMPTY) {
             slot = i;
             break;
         }
